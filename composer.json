@@ -14,5 +14,8 @@
         "php": ">=7.1",
         "ext-json": "*",
         "ext-mbstring": "*"
+    },
+    "replace": {
+        "insolita/unused-scanner": ">=2.4.0"
     }
 }
