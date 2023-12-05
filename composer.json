@@ -1,0 +1,18 @@
+{
+    "name": "unused-scanner/unused-scanner",
+    "description": "Detect unused composer dependencies",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Martins Sipenko",
+        "email": "martins.sipenko@gmail.com"
+    }, {
+        "name": "insolita",
+        "email": "webmaster100500@ya.ru"
+    }],
+    "require": {
+        "php": ">=7.1",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    }
+}
