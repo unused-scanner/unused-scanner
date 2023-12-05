@@ -11,11 +11,14 @@
         "email": "webmaster100500@ya.ru"
     }],
     "require": {
-        "php": ">=7.1",
+        "php": "^7.1 || ^8.0",
         "ext-json": "*",
         "ext-mbstring": "*"
     },
     "replace": {
         "insolita/unused-scanner": ">=2.4.0"
-    }
+    },
+    "bin": [
+        "unused_scanner"
+    ]
 }
